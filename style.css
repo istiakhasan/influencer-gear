@@ -105,3 +105,50 @@ main{
     color: #5E6366;
     margin-left: 8px;
 }
+
+/* ============main part end============= */
+/* ============footer start============== */
+footer{
+
+    background: #0A0826;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.footer__wraper{
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+.footer__wraper>h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    
+    margin: 0;
+    line-height: 46px;
+    font-weight: 700;
+}
+.footer__wraper>p,
+.footer__wraper>h5
+{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 700;
+    color: #D9DBE1;
+    line-height: 24px;
+}
+.social-icon{
+    margin: 17px 0;
+}
+.social-icon>i{
+  font-size: 30px;
+  
+  color: white;
+  padding: 10px 10px;
+  
+  border-radius: 50%;
+  cursor: pointer;
+  background: #31303f;
+  opacity: .9;
+}
