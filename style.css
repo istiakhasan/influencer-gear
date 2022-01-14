@@ -1,5 +1,5 @@
 body{
-    background: #FFFFFF;
+    background: #F1F1F1;
 }
 .banner{
     display: flex;
@@ -37,12 +37,12 @@ body{
 
 }
 .banner__img{
-    border: 1px solid red;
+    
     border-radius: 50%;
     padding: 10px;
 }
 .banner__img>img{
-    width: 440px;
+    
 }
 .collection__title{
     font-weight: 600;
@@ -56,5 +56,52 @@ body{
 main{
     width: 80%;
     padding: 0 10%;
-    border: 1px solid red;
+    
+    background: #F4F4F4;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.collections__item{
+    background-color: #FFFFFF;
+    padding: 15px;
+    
+
+}
+.collections__item>img{
+    width: 100%;
+}
+
+.card__title{
+    font-weight: 500;
+    font-size: 28px;
+    
+    color: #18191F;
+}
+.card__price{
+    font-weight: 400;
+    font-size: 24px;
+   
+    color: #000000;
+}
+.card__description{
+    color: #787885;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.fas.fa-star{
+    font-size: 10px;
+    color: #FB8200;
+}
+.rating{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #5E6366;
+    margin-left: 8px;
 }
